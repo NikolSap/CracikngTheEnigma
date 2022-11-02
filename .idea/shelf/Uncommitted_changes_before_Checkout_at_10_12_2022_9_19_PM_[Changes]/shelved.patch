@@ -1,0 +1,26 @@
+Index: UBoat/src/http/HttpClientUtil.java
+===================================================================
+diff --git a/UBoat/src/http/HttpClientUtil.java b/UBoat/src/Client/http/HttpClientUtil.java
+rename from UBoat/src/http/HttpClientUtil.java
+rename to UBoat/src/Client/http/HttpClientUtil.java
+--- a/UBoat/src/http/HttpClientUtil.java	
++++ b/UBoat/src/Client/http/HttpClientUtil.java	
+@@ -1,4 +1,4 @@
+-package http;
++package Client.http;
+ 
+ import okhttp3.Call;
+ import okhttp3.Callback;
+Index: UBoat/src/http/SimpleCookieManager.java
+===================================================================
+diff --git a/UBoat/src/http/SimpleCookieManager.java b/UBoat/src/Client/http/SimpleCookieManager.java
+rename from UBoat/src/http/SimpleCookieManager.java
+rename to UBoat/src/Client/http/SimpleCookieManager.java
+--- a/UBoat/src/http/SimpleCookieManager.java	
++++ b/UBoat/src/Client/http/SimpleCookieManager.java	
+@@ -1,4 +1,4 @@
+-package http;
++package Client.http;
+ 
+ import okhttp3.Cookie;
+ import okhttp3.CookieJar;
